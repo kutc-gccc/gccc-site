@@ -1,7 +1,7 @@
 <template>
   <header>
     <section class="logo">
-      <router-link to="/"><h2>GCCC</h2></router-link>
+      <router-link to="/"><img src="@/assets/img/logos/gccc-logo-original.png"></router-link>
     </section>
     <section class="links">
       <router-link to="/">Home</router-link>
@@ -27,7 +27,7 @@ export default class Header extends Vue {}
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 header {
-  background-color: rgba(10, 20, 20, 0.90);
+  background-color: rgba(10, 20, 20, 0.80);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,6 +41,9 @@ header {
 .logo {
   a {
     text-decoration: none;
+    img {
+      height: 5vh;
+    }
   }
   h2 {
     color: #eef;

@@ -51,7 +51,7 @@ export default class HomeContent extends Vue {}
       display: flex;
       flex-direction: column;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 480px) {
       .right-container {
         display: none;
       }
@@ -74,12 +74,17 @@ h2 {
   border-bottom: medium solid #000;
 }
 h3 {
-  margin: 1vh 0;
+  margin: 2vh 0;
+  margin-top: 4vh;
   font-size: 4vh;
 }
 h4 {
-  margin: 0.8vh 0;
+  margin: 1.5vh 0;
   font-size: 3.5vh;
+}
+h5 {
+  margin: 0.5vh 0;
+  font-size: 3.1vh;
 }
 p {
   margin: 0.5vh 0;

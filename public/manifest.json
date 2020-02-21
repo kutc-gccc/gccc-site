@@ -3,7 +3,7 @@
   "short_name": "gccc-site",
   "icons": [
     {
-      "src": "./img/gccc-logo.png",
+      "src": "./img/gccc-logo-square.png",
       "sizes": "256x256",
       "type": "image/png"
     }

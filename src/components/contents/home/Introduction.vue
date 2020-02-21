@@ -2,12 +2,13 @@
   <section class="bg">
     <section id="introduction">
       <h1>
-        <span class="head-enphasis">G</span>ame<br>
-        Creation<br>
-        Circle<br>
-        C
+        <span class="head-emphasis">G</span>ame<br>
+        <span class="head-emphasis">C</span>reaction<br>
+        <span class="head-emphasis">C</span>ircle<br>
+        <span class="head-emphasis">C</span>
       </h1>
-      <p>Unity / UnrealEngine / Siv3D / DxLib / Tyrano Builder</p>
+      <p class="catch-copy">ゲーム、作ろう！</p>
+      <p class="techs">Unity / FLStudio / Maya / Siv3D</p>
       <Button linkHref="https://twitter.com/gcccinfo" snsType="Twitter"/>
     </section>
   </section>
@@ -28,7 +29,7 @@ export default class Introduction extends Vue {}
 
 <style lang="scss" scoped>
 .bg {
-  background-image: url("/img/top-background.jpg");
+  background-image: url("../../../assets/img/bgs/top-background.jpg");
   background-size: cover;
 }
 
@@ -39,6 +40,7 @@ export default class Introduction extends Vue {}
   align-items: center;
   justify-content: space-evenly;
   height: 80vh;
+  width: 100%;
   transition: all 0.5s ease;
   h1 {
     color: #eef;
@@ -50,14 +52,19 @@ export default class Introduction extends Vue {}
     line-height: 1em;
     transition: all 0.5 ease;
   }
-  .head-enphasis {
-    color: #5ee;
+  .head-emphasis {
+    color: rgb(141, 219, 77);
   }
-  p {
+  .catch-copy {
+    color: #eff;
+    font-size: 5vh;
+
+  }
+  .techs {
     margin: 0;
     padding: 0;
     color: #eee;
-    font-size: 24px;
+    font-size: 2.5vh;
   }
 }
 
