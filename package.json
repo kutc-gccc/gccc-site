@@ -18,10 +18,10 @@
     "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-pwa": "^3.12.1",
     "@vue/cli-plugin-typescript": "^3.12.1",
-    "@vue/cli-service": "^3.12.1",
+    "@vue/cli-service": "^5.0.8",
     "lint-staged": "^8.2.1",
     "node-sass": "^4.13.1",
     "sass-loader": "^7.3.1",
